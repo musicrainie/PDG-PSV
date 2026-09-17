@@ -25,6 +25,7 @@ class TestPDGPSVCore(unittest.TestCase):
         self.z1 = torch.randn(16, 12)
         self.z2 = self.z1 + 0.2 * torch.randn(16, 12)
 
+
     def test_infonce_is_finite(self):
         value = symmetric_infonce(self.z1, self.z2, temperature=0.1)
         self.assertTrue(torch.isfinite(value))
