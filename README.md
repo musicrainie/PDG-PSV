@@ -40,7 +40,7 @@ python -m unittest discover -s tests -v
 
 This reference implementation begins from the two projected representations `z1, z2`. The encoder/projector implementation, dataset download and preprocessing, dataset-specific runners, full training recipes, checkpoints, and reproduction of the reported EDF20/EDF78/HMC/ISRUC1 results are intentionally outside this release and belong to a later experimental-reproduction package.
 
-The code here is derived from the audited selected PDG-PSV implementation surface; dormant/search-only historical geometry modes are intentionally omitted.
+This reference implementation contains the manuscript method core; exploratory alternatives outside the reported method are omitted.
 
 ## License
 

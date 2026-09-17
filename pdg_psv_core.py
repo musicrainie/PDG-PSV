@@ -5,8 +5,8 @@ This module is reviewer-facing: it mirrors the paper's Specify -> Assess ->
 Enforce ordering and intentionally omits dataset loading, EEG preprocessing,
 training recipes, and result-reproduction infrastructure.
 
-The implementation is derived from the audited selected PDG-PSV code path.
-Historical search-only geometry branches are intentionally excluded.
+This implementation contains the manuscript method core; exploratory alternatives
+outside the reported method are intentionally omitted.
 """
 
 from __future__ import annotations
