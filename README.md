@@ -2,7 +2,7 @@
 
 This repository provides a compact, executable reference implementation of the **PDG-PSV method core** in the ICASSP manuscript *Stateful Geometry Regulation for Self-Supervised EEG Sleep Staging*.
 
-Its purpose is deliberately narrow: **make the paper's Specify–Assess–Enforce / PDG-PSV mechanics easy to inspect in code.** It is not a full experimental-reproduction package.
+We provide this repository primarily to **make the paper's Specify–Assess–Enforce / PDG-PSV mechanics easy to inspect in code.** It is not a full experimental-reproduction package.
 
 ## What is implemented
 
