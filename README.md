@@ -4,6 +4,12 @@ This repository provides a compact, executable reference implementation of the *
 
 We provide this repository primarily to **make the paper's Specify–Assess–Enforce / PDG-PSV mechanics easy to inspect in code.**
 
+## Method overview
+
+[![PDG-PSV Specify–Assess–Enforce framework](assets/pdg_psv_fig2.png)](assets/pdg_psv_fig2.png)
+
+*Fig. 2. Specify–Assess–Enforce (SAE) framework and its interval-wise PDG-PSV instantiation.*
+
 ## What is implemented
 
 - the selected symmetric InfoNCE / NT-Xent base objective;
